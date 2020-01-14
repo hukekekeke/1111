@@ -1,0 +1,33 @@
+type(666)
+type(99.9)
+a = 5
+b = 6
+c =1
+e=a+b+c
+print(e)
+a==b
+for i in range(101):
+    print(i)
+    
+print('over')
+a=10
+if ( a in range(101) ):
+    print ("100以内的数字")
+else:
+    print ("区间以外的数字")
+    1.4   python单行注释和多行注解分别用什么?
+单行#
+多行'''
+
+l = [1,2,3,4]
+for i in l:
+    for j in l:
+        for k in l:
+            if (i!=j) and (i!=k) and (j!=k):
+                print(i,j,k)
+                a=[1,2,3,4,5]
+b=a[::2]
+def is_odd(n):
+    return n % 2 ==0
+
+print(list(filter(is_odd, [1, 2, 7, 12, 45, 56, 66])))
